@@ -4,11 +4,11 @@
 
 `kompose` 是一个方便熟悉 `docker-compose`工具的开发者向 [Kubernetes](http://kubernetes.io)迁移的工具. `kompose` 将一个dockercompose.yml文件解析成kubernetes的资源。
 
-`kompose` 是一个让你十分方便的把本地的Docker应用部署到kubernetes上管理的工具. 将dockercompose.yml中的对象转换成kubernetes资源的结果可能并不准确，但是对于熟悉在kubernetes上部署应用有着很大的帮助。
+`kompose` 是一个让你可以十分方便的把本地的Docker应用部署到kubernetes上管理的工具。`kompose`将dockercompose.yml中的对象转换成kubernetes资源的结果可能并不准确，但是对于熟悉在kubernetes上部署应用有着很大的帮助。
 
 ## 使用方法
 
-将[`docker-compose.yaml`](https://raw.githubusercontent.com/kubernetes/kompose/master/examples/docker-compose.yaml) 对象转换成kubernetes资源只需一行命令:
+将[`docker-compose.yaml`](https://raw.githubusercontent.com/kubernetes/kompose/master/examples/docker-compose.yaml) 对象转换成kubernetes对应的资源只需一行命令:
 
 ```sh
 $ kompose convert -f docker-compose.yaml
@@ -24,9 +24,9 @@ INFO Kubernetes file "redis-slave-deployment.yaml" created
 
 ## 安装
 
-我们有许多种方法安装Kompose.我们更倾向与从GitHub release中下载打包好的二进制执行程序。
+我们有许多种方法安装Kompose.我们更推荐从GitHub release中下载打包好的二进制执行程序。
 
-所有安装Kompose的方法列在 [installation.md](/docs/installation.md) 文件内。
+所有安装Kompose的方法列在 [installation.md](/docs/installation.md)。
 
 下载方法:
   - [Binary (推荐)](/docs/installation.md#github-release)
