@@ -20,21 +20,21 @@ INFO Kubernetes file "redis-master-deployment.yaml" created
 INFO Kubernetes file "redis-slave-deployment.yaml" created 
 ```
 
-其他例子包含在 _examples_ [文件](./examples)内。
+其他例子包含在 _examples_ [文件](https://github.com/kubernetes/kompose/tree/master/examples)内。
 
 ## 安装
 
 我们有许多种方法安装Kompose.我们更推荐从GitHub release中下载打包好的二进制执行程序。
 
-所有安装Kompose的方法列在 [installation.md](/docs/installation.md)。
+所有安装Kompose的方法列在 [installation.md](https://github.com/kubernetes/kompose/blob/master/docs/installation.md)。
 
 下载方法:
-  - [Binary (推荐)](/docs/installation.md#github-release)
-  - [Go](/docs/installation.md#go)
-  - [CentOS](/docs/installation.md#centos)
-  - [Fedora](/docs/installation.md#fedora)
-  - [macOS (Homebrew)](/docs/installation.md#macos)
-  - [Windows](/docs/installation.md#windows)
+  - [Binary (推荐)](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#github-release)
+  - [Go](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#go)
+  - [CentOS](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#centos)
+  - [Fedora](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#fedora)
+  - [macOS (Homebrew)](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#macos)
+  - [Windows](https://github.com/kubernetes/kompose/blob/master/docs/installation.md#windows)
 
 #### 安装二进制执行文件
 
@@ -118,11 +118,11 @@ __交流(Slack):__ 我们一直活跃在 [Slack](http://slack.kubernetes.io#komp
 
 ## 发展路线
 
-你可以在 [ROADMAP.md](/ROADMAP.md) 找到我们最新版本的发展路线。
+你可以在 [ROADMAP.md](https://github.com/kubernetes/kompose/blob/master/ROADMAP.md) 找到我们最新版本的发展路线。
 
 ### 准则
 
-作为Kubernetes 社区成员，受到[Kubernetes 行为准则的约束](code-of-conduct.md).
+作为Kubernetes 社区成员，受到[Kubernetes 行为准则的约束](https://github.com/kubernetes/kompose/blob/master/code-of-conduct.md).
 
 [Build Status]: https://travis-ci.org/kubernetes/kompose
 [Build Status Widget]: https://travis-ci.org/kubernetes/kompose.svg?branch=master
