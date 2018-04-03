@@ -101,12 +101,12 @@ $ make test
 
 以下列表包含所有可用文档:
 
-- [快速开始](docs/getting-started.md)
-- [安装](docs/installation.md)
-- [用户指引](docs/user-guide.md)
-- [转换](docs/conversion.md)
-- [体系结构](docs/architecture.md)
-- [研发](docs/development.md)
+- [快速开始](https://github.com/kubernetes/kompose/blob/master/docs/getting-started.md)
+- [安装](https://github.com/kubernetes/kompose/blob/master/docs/installation.md)
+- [用户指引](https://github.com/kubernetes/kompose/blob/master/docs/user-guide.md)
+- [转换](https://github.com/kubernetes/kompose/blob/master/docs/conversion.md)
+- [体系结构](https://github.com/kubernetes/kompose/blob/master/docs/architecture.md)
+- [研发](https://github.com/kubernetes/kompose/blob/master/docs/development.md)
 
 ## 社区、讨论、贡献和支持
 
